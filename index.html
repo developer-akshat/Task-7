@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task App|Akshat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="nav">
+        <h2>Task Creation </h2>
+
+        <button class="create">Create Task</button>
+    </div>
+    <main>
+        <div class="task"></div>
+        <div class="form">
+           
+    <form>
+         <div class="close">X</div>
+            <input id="title" type="text" placeholder="Enter your task title">
+            <input id="des" type="text" placeholder="Enter your task description">
+
+
+        <label for="priority">Priority Level:</label>
+
+        <select name="priority" id="priority">
+        <option value="Low">Low</option>
+        <option value="Medium">Medium</option>
+        <option value="High">High</option>
+        <option value="Urgent">Urgent</option>
+        </select>
+        <button id="add-task">Add Task</button>
+    </form>
+    </div> 
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
